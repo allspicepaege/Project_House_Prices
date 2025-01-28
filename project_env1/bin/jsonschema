@@ -1,0 +1,8 @@
+#!/home/Rena/bootcamp_ds/phase_1/ds-phase-1/Project_House_Prices/project_env1/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from jsonschema.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

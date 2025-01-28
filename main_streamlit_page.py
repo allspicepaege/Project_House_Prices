@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 import lightgbm as lgb
 from scipy.stats import chi2_contingency
-import shap
 
 import sklearn
 sklearn.set_config(transform_output="pandas")
@@ -34,7 +33,7 @@ if uploaded_file is not None:
     st.write(test_df.head(10))
 
     # обработаем загруженный датасет
-    train = pd.read_csv('house-prices-advanced-regression-techniques/train.csv')
+    train = pd.read_csv('data/train.csv')
     X, y = train.drop('SalePrice', axis=1), train['SalePrice']
 
     # добавим по строке к каждому датасету для определения NaN корректно
