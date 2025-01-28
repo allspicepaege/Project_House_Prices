@@ -36,9 +36,9 @@
   pip install -r requirements.txt
 ```
 4. Запустите приложение Streamlit:
-   ```
+```
    streamlit run main_streamlit_page.py
-   ```
+```
 ## **Contributors**
 Бутин Михаил
 Зарницына Алина
