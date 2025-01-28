@@ -25,7 +25,7 @@
 Для установки всех зависимостей проекта, выполните следующие шаги:
 1. Клонируйте репозиторий:
   ```
-   git clone https://github.com/yourusername/yourrepository.git
+  git clone https://github.com/yourusername/yourrepository.git
   ```
 2. Перейдите в каталог проекта:
   ```
@@ -37,7 +37,7 @@
 ```
 4. Запустите приложение Streamlit:
 ```
-   streamlit run main_streamlit_page.py
+streamlit run main_streamlit_page.py
 ```
 ## **Contributors**
 Бутин Михаил
